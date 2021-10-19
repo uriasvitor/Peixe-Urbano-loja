@@ -194,130 +194,42 @@
       "id": 1
     },
     {
-      "endereço": "rrrrrrr",
-      "numero": "1",
-      "complemento": "222",
+      "endereco": "1123123",
+      "numero": "123",
+      "complemento": "123123",
       "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 1,
+          "img": {
+            "url": "/assets/ofertas/1/img1.jpg"
+          },
+          "titulo": "Super Burger",
+          "descricao_ofertas": "Rodízio de Mini-hambúrger com opção de entrada.",
+          "valor": 29.9,
+          "quantidade": 3
+        }
+      ],
       "id": 2
     },
     {
-      "endereço": "as dsad",
-      "numero": "asd",
-      "complemento": "dasasd",
+      "endereco": "123",
+      "numero": "123",
+      "complemento": "123123",
       "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 1,
+          "img": {
+            "url": "/assets/ofertas/1/img1.jpg"
+          },
+          "titulo": "Super Burger",
+          "descricao_ofertas": "Rodízio de Mini-hambúrger com opção de entrada.",
+          "valor": 29.9,
+          "quantidade": 1
+        }
+      ],
       "id": 3
-    },
-    {
-      "endereço": "as dsad",
-      "numero": "asd",
-      "complemento": "dasasd",
-      "formaPagamento": "dinheiro",
-      "id": 4
-    },
-    {
-      "endereço": "123123",
-      "numero": "123",
-      "complemento": "231",
-      "formaPagamento": "dinheiro",
-      "id": 5
-    },
-    {
-      "endereço": "123123",
-      "numero": "123",
-      "complemento": "231",
-      "formaPagamento": "dinheiro",
-      "id": 6
-    },
-    {
-      "endereço": "123123",
-      "numero": "123",
-      "complemento": "123",
-      "formaPagamento": "dinheiro",
-      "id": 7
-    },
-    {
-      "endereço": "123123",
-      "numero": "123",
-      "complemento": "123",
-      "formaPagamento": "dinheiro",
-      "id": 8
-    },
-    {
-      "endereço": "123123",
-      "numero": "213",
-      "complemento": "312",
-      "formaPagamento": "dinheiro",
-      "id": 9
-    },
-    {
-      "endereço": "1232",
-      "numero": "321",
-      "complemento": "3123",
-      "formaPagamento": "debito",
-      "id": 10
-    },
-    {
-      "endereço": "123123123",
-      "numero": "123",
-      "complemento": "1231231",
-      "formaPagamento": "dinheiro",
-      "id": 11
-    },
-    {
-      "endereço": "123123123",
-      "numero": "123",
-      "complemento": "1231231",
-      "formaPagamento": "dinheiro",
-      "id": 12
-    },
-    {
-      "endereco": "",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "",
-      "id": 13
-    },
-    {
-      "endereco": "",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "",
-      "id": 14
-    },
-    {
-      "endereco": "",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "",
-      "id": 15
-    },
-    {
-      "endereco": "w",
-      "numero": "2",
-      "complemento": "2",
-      "formaPagamento": "dinheiro",
-      "id": 16
-    },
-    {
-      "endereco": "",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "",
-      "id": 17
-    },
-    {
-      "endereco": "",
-      "numero": "",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 18
-    },
-    {
-      "endereco": "1111",
-      "numero": "1",
-      "complemento": "111",
-      "formaPagamento": "dinheiro",
-      "id": 19
     }
   ]
 }

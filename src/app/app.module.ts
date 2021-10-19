@@ -2,8 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core'; //Locale_ID, trabalhar com moedas
 import { HttpModule } from '@angular/http' //requisição http
 import { RouterModule } from '@angular/router' //rotas
-import { ReactiveFormsModule } from '@angular/forms';
+// import { FormsModule } from '@angular/forms' //validar formularios
+import { ReactiveFormsModule } from "@angular/forms"; //Substituto de FormsModule
 import { ROUTES } from './app.routes' //rotas
+
 
 import { AppComponent } from './app.component';
 import { TopoComponent } from './topo/topo.component';
@@ -19,6 +21,8 @@ import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
 import { DescricaoReduzida } from './util/descricao-reduzida.pipe';
 import { OrdemCompraComponent } from './ordem-compra/ordem-compra.component';
 import { OrdemCompraSucessoComponent } from './ordem-compra-sucesso/ordem-compra-sucesso.component';
+import { CarrinhoService } from './carrinho.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,10 +41,11 @@ import { OrdemCompraSucessoComponent } from './ordem-compra-sucesso/ordem-compra
   imports: [
     BrowserModule,
     HttpModule,
+    // FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [{ provide: LOCALE_ID, useValue: 'pt-Br' }],
+  providers: [CarrinhoService,{ provide: LOCALE_ID, useValue: 'pt-Br' }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
