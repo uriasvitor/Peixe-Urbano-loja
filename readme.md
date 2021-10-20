@@ -26,6 +26,7 @@ e criação de diversas funcionalidades dos dias atuais.
 ![image](https://user-images.githubusercontent.com/81401104/137852774-2aa1ad77-8d7a-49fa-93c3-3fcfdbca9a6c.png)
 
 Agradecimentos ao professor Jorge Sant Ana.
-  Udemy: https://www.udemy.com/user/jorgetadeusantanasilva/
+
+ Udemy: https://www.udemy.com/user/jorgetadeusantanasilva/
   
  Completo 19/10/2021
