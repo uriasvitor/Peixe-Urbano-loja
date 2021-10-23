@@ -16,7 +16,7 @@
 * Adicionar e Remover dados no json.
 * Criação de Build de produção
 * Envio de site na nuvem Amazon AWS S3
-* 
+
 e criação de diversas funcionalidades dos dias atuais.
 
 ## 📲 Sobre o Site
